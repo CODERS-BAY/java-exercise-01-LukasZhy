@@ -12,8 +12,11 @@ public class Geometrics {
     private static int x3 = 45;
     private static int y3 = 89;
     private static int z3 = 69;
-
+           
+    
+    
     public static void main(String[] args) {
+    	
         // area ... Fläche
         System.out.println("Square area");
         System.out.println("x * x = " + x * x);
@@ -21,6 +24,8 @@ public class Geometrics {
         System.out.println("x2 * x2 = " + x2 * x2);
         System.out.println("y * y = " + y * y);
 
+   
+        
         // perimeter ... Umfang
         System.out.println("Square perimeter");
         System.out.println("4 * x = " + 4 * x);
@@ -45,6 +50,9 @@ public class Geometrics {
             z is our height
             y is our radius
          */
+        
+        
+        
         System.out.println("Zone of a sphere");
         double v = (Math.PI * z * (3 * Math.pow(y, 2) + 3 * Math.pow(x, 2) + Math.pow(z, 2))) / 6;
         System.out.println(v);
